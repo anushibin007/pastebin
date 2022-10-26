@@ -144,9 +144,10 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
-  "active": "cad0530559812be6",
+  "active": "33bd110203ca0c92",
   "lastOpenFiles": [
     "index.md",
     "bits-wilp/sem-1/dsa/assignment/ps07/Design Doc - PS07-Q1.md",

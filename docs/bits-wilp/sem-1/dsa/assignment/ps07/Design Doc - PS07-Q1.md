@@ -18,15 +18,17 @@ Anu Shibin J
 
 ## Complexity Analysis
 ### Time Complexity
-| Function           | Time Complexity | Comment                                                                   |
-| ------------------ | --------------- | ------------------------------------------------------------------------- |
-| `hashId`           | O(N)            | Where N is the number of characters in the String that needs to be hashed |
-| `initializeHash`   | O(1)            | Since there will be only one bucket initially                             |
-| `insertAppDetails` |                 |                                                                           |
-| `updateAppDetails` |                 |                                                                           |
-| `memRef`           |                 |                                                                           |
-| `appStatus`        |                 |                                                                           |
-| `destroyHash`      |                 |                                                                           |
+Please check the inline comments in the code to indentify how each individual operation consumes said amount of time.
+
+| Function           | Time Complexity                                  | Comment                                                                                                                                                                     |
+| ------------------ | ------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `hashId`           | O(N)                                             | Where N is the number of characters in the String that needs to be hashed                                                                                                   |
+| `initializeHash`   | O(1)                                             | Since there will be only one bucket initially                                                                                                                               |
+| `insertAppDetails` | O(N) + O(N) + O(1) + O(M) + O(1) + O(N) = O(N+M) | Where N is the number of buckets and M is the number of items in the chain in a bucket where the given hashId is indexed                                                    |
+| `updateAppDetails` | O(N+M) + O(5) + O(N+M) = O(N+M)                  | Where N is the number of buckets and M is the number of items in the chain in a bucket where the given hashId is indexed                                                    |
+| `memRef`           | O(M+N)                                           | Where N is the number of buckets and M is the number of items in the chain in a bucket where the given hashId is indexed                                                    |
+| `appStatus`        | O(M+N+Q)                                         | Where N is the number of buckets and M is the number of items in the chain in a bucket where the given hashId is indexed and Q is the number of different application types |
+| `destroyHash`      | O(N)                                             | Where N is the number of buckets                                                                                                                                            |
 
 ### Space Complexity
 
