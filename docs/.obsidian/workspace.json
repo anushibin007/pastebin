@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "16a52ab1d848a39a",
+        "id": "7d5ce93a0752cfac",
         "type": "tabs",
         "children": [
           {
-            "id": "5875a072c723d9c6",
+            "id": "33bd110203ca0c92",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "bits-wilp/sem-1/dsa/assignment/ps07/Design Doc - PS07-Q1.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "pinned": true
             }
           }
         ]
@@ -128,16 +130,26 @@
                 "file": "bits-wilp/sem-1/dsa/assignment/ps07/Design Doc - PS07-Q1.md"
               }
             }
+          },
+          {
+            "id": "cad0530559812be6",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "5875a072c723d9c6",
+  "active": "cad0530559812be6",
   "lastOpenFiles": [
+    "index.md",
+    "bits-wilp/sem-1/dsa/assignment/ps07/Design Doc - PS07-Q1.md",
     "bits-wilp/sem-1/dsa/Untitled.md"
   ]
 }
