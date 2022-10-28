@@ -1,27 +1,41 @@
-# official tutorial 
+# official tutorial
 # mkdocs-material: https://squidfunk.github.io/mkdocs-material/
 # mkdocs: https://www.mkdocs.org/user-guide/configuration/
 
 site_name: Anu Shibin's Pastebin
 theme:
-  name: material
-  palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: black
-      accent: white
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: black
-      accent: white
-      toggle:
-        icon: material/weather-night
-        name: Switch to light mode
-  language: en
+    name: material
+    palette:
+        - media: "(prefers-color-scheme: light)"
+          scheme: default
+          primary: black
+          accent: white
+          toggle:
+              icon: material/weather-sunny
+              name: Switch to dark mode
+        - media: "(prefers-color-scheme: dark)"
+          scheme: slate
+          primary: black
+          accent: white
+          toggle:
+              icon: material/weather-night
+              name: Switch to light mode
+    language: en
+
+# Extensions
+markdown_extensions:
+    - footnotes
+    - attr_list
+    - pymdownx.highlight
+    - pymdownx.superfences
+    - pymdownx.details
+    - pymdownx.magiclink
+    - pymdownx.tasklist
+    - pymdownx.emoji
+    - admonition
+    - toc:
+          permalink: true
 
 plugins:
-  - search
-  - roamlinks 
+    - search
+    - roamlinks
