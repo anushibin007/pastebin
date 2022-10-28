@@ -34,9 +34,21 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "48dcabdb6a2a8f62",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "bits-wilp/sem-1/dsa/assignment/ps09/Design Doc - PS09-Q2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -162,10 +174,7 @@
     "width": 300,
     "collapsed": true
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
-  "active": "bbbc1ca89b0b6712",
+  "active": "48dcabdb6a2a8f62",
   "lastOpenFiles": [
     "bits-wilp/sem-1/dsa/assignment/ps09/Design Doc - PS09-Q1.md",
     "bits-wilp/sem-1/dsa/assignment/ps09/Design Doc - PS09-Q2.md",
