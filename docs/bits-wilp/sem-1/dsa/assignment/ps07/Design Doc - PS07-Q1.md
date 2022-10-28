@@ -31,7 +31,7 @@ h(k) = 31 * h(x) + ASCII(k)
 
 ## Instructions to run the program
 <ol>
-<li>Paste the input and prompt files `inputPS07Q1.txt` & `promptsPS07Q1.txt` respectively into folder where the the java source file (`PS07Q1.java`) is present</li>
+<li>Paste the input and prompt files <code>inputPS07Q1.txt</code> & <code>promptsPS07Q1.txt</code> respectively into the folder where the the java source file (<code>PS07Q1.java</code>) is present</li>
 <li>Compile the java file using the command</li>
 ```
 java PS07Q1.java
@@ -40,6 +40,6 @@ java PS07Q1.java
 ```
 javac PS07Q1
 ```
-<li>The output will be printed to the file `outputPS07Q1.txt`</li>
+<li>The output will be printed to the file <code>outputPS07Q1.txt</code></li>
 </ol>
 **Note:** The sample input and output files are already provided in the ZIP.
