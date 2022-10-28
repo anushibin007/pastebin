@@ -1,8 +1,10 @@
 # PS07Q2 Design Document
 
-## Author // Student ID
+## Author
+Varshinni M
 
-Anu Shibin J // 2022MT12007
+## Student ID
+2022MT12505
 
 ## Design Analysis
 -   This problem can be solved using a type of greedy algorithm called as the **Unbound Knapsack Problem** algorithm.

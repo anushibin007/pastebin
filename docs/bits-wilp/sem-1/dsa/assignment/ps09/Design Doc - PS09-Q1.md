@@ -19,27 +19,24 @@ Varshinni M
 
 ## Time Complexity Analysis
 
-| Function           | Time Complexity                 | Comment                                                                                                                                                                     |
-| ------------------ | ------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `registerCitizen`  | O(N log N)                      | Where N is the number of initial Citizens                                                                                                                                   |
-| `enqueueCitizen`   | O(1)                            | Since we are just inserting an item into the i<sup>th</sup> index                                                                                                           |
-| `nextCitizen`      | O(N log N)                      | Where N is the number of buckets and M is the number of items in the chain in a bucket where the given hashId is indexed                                                    |
-| `updateAppDetails` | O(N+M) + O(5) + O(N+M) = O(N+M) | Where N is the number of buckets and M is the number of items in the chain in a bucket where the given hashId is indexed                                                    |
-| `memRef`           | O(M+N)                          | Where N is the number of buckets and M is the number of items in the chain in a bucket where the given hashId is indexed                                                    |
-| `appStatus`        | O(M+N+Q)                        | Where N is the number of buckets and M is the number of items in the chain in a bucket where the given hashId is indexed and Q is the number of different application types |
-| `destroyHash`      | O(N)                            | Where N is the number of buckets                                                                                                                                            |
+| Function          | Time Complexity | Comment                                                                        |
+| ----------------- | --------------- | ------------------------------------------------------------------------------ |
+| `registerCitizen` | O(N log N)      | Where N is the number of initial Citizens                                      |
+| `enqueueCitizen`  | O(1)            | Since we are just inserting an item into the i<sup>th</sup> index in the Queue |
+| `nextCitizen`     | O(N log N)      | Where N is the number Citizens currently in the Queue                                    |
+| `dequeueCitizen`  | O(N)            | Where N is the number Citizens currently in the Queue                                     |
 
 ## Instructions to run the program
 <ol>
-<li>Paste the input and prompt files <code>inputPS07Q1.txt</code> & <code>promptsPS07Q1.txt</code> respectively into the folder where the the java source file (<code>PS07Q1.java</code>) is present</li>
+<li>Paste the input files <code>inputPS09Q1a.txt</code> & <code>inputPS09Q1b.txt</code> respectively into the folder where the the java source file (<code>PS09Q1.java</code>) is present</li>
 <li>Compile the java file using the command</li>
 ```
-java PS07Q1.java
+java PS09Q1.java
 ```
 <li>Run the program using the command</li>
 ```
-javac PS07Q1
+javac PS09Q1
 ```
-<li>The output will be printed to the file <code>outputPS07Q1.txt</code></li>
+<li>The output will be printed to the file <code>outputPS09Q1.txt</code></li>
 </ol>
 **Note:** The sample input and output files are already provided in the ZIP.
