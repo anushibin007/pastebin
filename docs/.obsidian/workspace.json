@@ -35,7 +35,8 @@
               "pinned": true
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,8 +82,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "bits-wilp/sem-1/dsa/assignment/ps07/Design Doc - PS07-Q1.md",
+                "file": "bits-wilp/sem-1/dsa/assignment/ps07/Design Doc - PS07-Q2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "bits-wilp/sem-1/dsa/assignment/ps07/Design Doc - PS07-Q1.md",
+                "file": "bits-wilp/sem-1/dsa/assignment/ps07/Design Doc - PS07-Q2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "bits-wilp/sem-1/dsa/assignment/ps07/Design Doc - PS07-Q1.md"
+                "file": "bits-wilp/sem-1/dsa/assignment/ps07/Design Doc - PS07-Q2.md"
               }
             }
           },
@@ -165,10 +165,13 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "33bd110203ca0c92",
+  "active": "a33c294d7b62f5e4",
   "lastOpenFiles": [
-    "bits-wilp/sem-1/dsa/assignment/ps07/Design Doc - PS07-Q2.md",
     "bits-wilp/sem-1/dsa/assignment/ps07/Design Doc - PS07-Q1.md",
+    "bits-wilp/sem-1/dsa/assignment/ps07/Design Doc - PS07-Q2.md",
+    "bits-wilp/sem-1/dsa/assignment/ps09/Design Doc - PS09-Q1.md",
+    "bits-wilp/sem-1/dsa/ps20/PS20-Q1-Chegg-Solution.md",
+    "bits-wilp/sem-1/dsa/assignment/ps09/Design Doc - PS09-Q2.md",
     "bits-wilp/sem-1/dsa/assignment/ps07/Design Doc - PS07-Q1 1.md",
     "index.md",
     "bits-wilp/sem-1/dsa/Untitled.md"
