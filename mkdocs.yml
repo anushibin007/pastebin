@@ -39,3 +39,6 @@ markdown_extensions:
 plugins:
     - search
     - roamlinks
+    - encryptcontent:
+        remember_password: True
+        global_password: 'password'

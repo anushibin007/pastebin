@@ -8,13 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "582b3d0a18495cdb",
+            "id": "e14b199c83240a54",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "bits-wilp/sem-1/dsa/assignment/ps09/Design Doc - PS09-Q1.md",
+                "file": "bits-wilp/sem-1/esd/CS-7 How to run STMXXX programs in Keil.md",
                 "mode": "source",
                 "source": false
               },
@@ -22,13 +22,13 @@
             }
           },
           {
-            "id": "bbbc1ca89b0b6712",
+            "id": "2d8ca669c391d660",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "bits-wilp/sem-1/dsa/assignment/ps09/Design Doc - PS09-Q2.md",
+                "file": "bits-wilp/sem-1/esd/CS-8 STX Chip Timer & Interrupts.md",
                 "mode": "source",
                 "source": false
               },
@@ -36,15 +36,17 @@
             }
           },
           {
-            "id": "48dcabdb6a2a8f62",
+            "id": "6e0d9e789c33d787",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "general/GitHub Pages YML.md",
+                "file": "bits-wilp/sem-1/esd/CS-9 ADC.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "pinned": true
             }
           }
         ],
@@ -98,7 +100,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 364.5
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "33f839a8d88eb972",
@@ -114,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "general/GitHub Pages YML.md",
+                "file": "bits-wilp/sem-1/esd/CS-9 ADC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "general/GitHub Pages YML.md",
+                "file": "bits-wilp/sem-1/esd/CS-9 ADC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "general/GitHub Pages YML.md"
+                "file": "bits-wilp/sem-1/esd/CS-9 ADC.md"
               }
             }
           },
@@ -174,16 +177,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "48dcabdb6a2a8f62",
+  "active": "6e0d9e789c33d787",
   "lastOpenFiles": [
-    "general/Obsidian mkdocs GitHub Pages Action.md",
+    "bits-wilp/sem-1/esd/CS-8 STX Chip Timer & Interrupts.md",
+    "bits-wilp/sem-1/esd/CS-9 ADC.md",
+    "bits-wilp/sem-1/esd/CS-7 How to run STMXXX programs in Keil.md",
     "bits-wilp/sem-1/dsa/assignment/ps09/Design Doc - PS09-Q2.md",
     "bits-wilp/sem-1/dsa/assignment/ps09/Design Doc - PS09-Q1.md",
     "bits-wilp/sem-1/dsa/assignment/ps07/Design Doc - PS07-Q2.md",
     "bits-wilp/sem-1/dsa/assignment/ps07/Design Doc - PS07-Q1.md",
     "bits-wilp/sem-1/dsa/ps20/PS20-Q1-Chegg-Solution.md",
     "bits-wilp/sem-1/dsa/assignment/ps07/Design Doc - PS07-Q1 1.md",
-    "index.md",
-    "bits-wilp/sem-1/dsa/Untitled.md"
+    "index.md"
   ]
 }
