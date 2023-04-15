@@ -4,6 +4,14 @@
 
 	I have completed and explained only the first question (15M). The second question requires diagrams. Please check the end of Chapter-5.pdf for samples.
 
+## Subject & Subject Code
+
+Cyber Physical Systems (Merged - CSIZG528/SEZG528/SSZG528)(S2-22)
+
+## Question Summary
+
+Train Gate design in UPPAAL with prioritization of a train
+
 ## Video Guide
 
 Check this video for a guide on how to solve the first question in the assignment: 
