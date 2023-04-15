@@ -14,7 +14,9 @@ Train Gate design in UPPAAL with prioritization of a train
 
 ## Video Guide
 
-Check this video for a guide on how to solve the first question in the assignment: 
+Check this video for a guide on how to solve the first question in the assignment: https://youtu.be/Anv6IKXWwis
+
+Feel free to comment in the video if you have any doubts. Or contact me in the WhatsApp group. I will try to explain as much as I know.
 
 ## Code
 
