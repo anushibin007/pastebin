@@ -4,53 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4607907cf7d7e0a9",
+        "id": "e4a2aff6f998f09f",
         "type": "tabs",
         "children": [
           {
-            "id": "e14b199c83240a54",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "bits-wilp/sem-1/esd/CS-7 How to run STMXXX programs in Keil.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "2d8ca669c391d660",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "bits-wilp/sem-1/esd/CS-8 STX Chip Timer & Interrupts.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "6e0d9e789c33d787",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "bits-wilp/sem-1/esd/CS-9 ADC.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "fbcbeb55c836436b",
+            "id": "93f403d6e019a3d6",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -60,9 +18,21 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "6e2c2d26a82ffd2f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "bits-wilp/sem-2/CPS Assignment 1 Guide.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -128,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "bits-wilp/sem-2/Assignments Post Mid Sem.md",
+                "file": "bits-wilp/sem-2/CPS Assignment 1 Guide.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "bits-wilp/sem-2/Assignments Post Mid Sem.md",
+                "file": "bits-wilp/sem-2/CPS Assignment 1 Guide.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "bits-wilp/sem-2/Assignments Post Mid Sem.md"
+                "file": "bits-wilp/sem-2/CPS Assignment 1 Guide.md"
               }
             }
           },
@@ -199,11 +169,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fbcbeb55c836436b",
+  "active": "6e2c2d26a82ffd2f",
   "lastOpenFiles": [
-    "bits-wilp/Untitled.md",
     "bits-wilp/sem-2/Assignments Post Mid Sem.md",
-    "bits-wilp/sem-2",
+    "bits-wilp/sem-2/CPS Assignment 1 Guide.md",
     "bits-wilp/sem-1/esd/CS-9 ADC.md",
     "bits-wilp/sem-1/esd/CS-8 STX Chip Timer & Interrupts.md",
     "bits-wilp/sem-1/esd/CS-7 How to run STMXXX programs in Keil.md",
