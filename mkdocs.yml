@@ -47,6 +47,19 @@ extra:
   analytics:
     provider: google
     property: G-43TC5FZL01
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/emoticon-sad-outline
+          name: This page could be improved
+          data: 0
+          note: >- 
+            Thanks for your feedback! We will try to improve this page further! Please create an Issue in GitHub to get anything fixed!
 
 plugins:
     - search
