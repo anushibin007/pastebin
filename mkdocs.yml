@@ -43,6 +43,11 @@ markdown_extensions:
     - toc:
           permalink: true
 
+extra:
+  analytics:
+    provider: google
+    property: G-43TC5FZL01
+
 plugins:
     - search
     - roamlinks
