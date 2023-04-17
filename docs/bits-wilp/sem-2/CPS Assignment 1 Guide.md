@@ -14,6 +14,10 @@ Train Gate design in UPPAAL with prioritization of a train
 
 ## Video Guide
 
+!!! note
+
+	EDIT on 18-Apr-2023: There was a slight change in the code which I identified after recording the video. I have updated the code below accordingly. Please use the code below instead of the one that I showed in the video. The reorganize_queue() method below was changed to handle an edge case.
+
 Check this video for a guide on how to solve the first question in the assignment: https://youtu.be/Anv6IKXWwis
 
 Feel free to comment in the video if you have any doubts. Or contact me in the WhatsApp group. I will try to explain as much as I know.
@@ -49,35 +53,22 @@ void enqueue(id_t element)
         list[len++] = element;
 }
 
-bool is_priority_train_in_queue()
-{
+void reorganize_queue() {
     int i;
-    for(i = 0; i < len; i++)
-    {
-        if(list[i] == PRIORITY)
-        {
-            return true;
+
+    int elementIndex = -1;
+    for (i = 0; i < len; i++) {
+        if (list[i] == PRIORITY) {
+            elementIndex = i;
         }
     }
-    return false;
-}
 
-void reorganize_queue()
-{
-        if(is_priority_train_in_queue())
-        {
-            while(list[0] != PRIORITY)
-            {
-                int j, last;    
-                last = list[len-1];    
-
-                for(j = len-1; j > 0; j--)
-                {    
-                    list[j] = list[j-1];    
-                }    
-                list[0] = last;
-            }
+    if (elementIndex != -1) {
+        for (i = elementIndex; i > 0; i--) {
+            list[i] = list[i - 1];
         }
+        list[0] = PRIORITY;
+    }
 }
 
 void dequeue()
