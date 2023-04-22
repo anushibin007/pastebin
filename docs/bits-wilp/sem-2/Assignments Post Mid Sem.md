@@ -25,9 +25,11 @@ Looks like some theoretical question.
 
 ## SPA
 
-Due Date: Friday, 21 April 2023
+Due Date: Friday, 21 April 2023 (extended to 30 April 2023)
 
-I am G7. Need to check G11 too.
+Check this: [[SPA Assignment 1 Guide]]
+
+I am G7.
 
 Need to learn some Python to program this.
 
