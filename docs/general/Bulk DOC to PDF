@@ -1,0 +1,27 @@
+```powershell
+$sourceDir = "C:\path\to\docs"  # Change this to your folder path
+$pdfDir = Join-Path $sourceDir "PDF"
+
+# Create PDF subdirectory if it doesn't exist
+if (-not (Test-Path -Path $pdfDir)) {
+    New-Item -ItemType Directory -Path $pdfDir | Out-Null
+}
+
+# Start Word COM object
+$word = New-Object -ComObject word.application
+$word.Visible = $false
+
+# Get all DOC and DOCX files
+$files = Get-ChildItem -Path $sourceDir -Include *.doc, *.docx -File
+
+foreach ($file in $files) {
+    $doc = $word.Documents.Open($file.FullName)
+    $pdfPath = Join-Path $pdfDir ($file.BaseName + ".pdf")
+    $doc.SaveAs([ref] $pdfPath, [ref] 17)  # 17 is the enum for PDF
+    $doc.Close()
+    Write-Host "Converted $($file.Name) to PDF."
+}
+
+# Quit Word
+$word.Quit()
+```
