@@ -1,3 +1,5 @@
+# Convert DOC(X) to PDF in bulk
+
 ```powershell
 $sourceDir = "C:\path\to\docs"  # Change this to your folder path
 $pdfDir = Join-Path $sourceDir "PDF"
